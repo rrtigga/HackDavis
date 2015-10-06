@@ -8,9 +8,14 @@ body {
 
 }
 
-
 .header{
-  font-size: 60px;
+  font-size: 75px;
+  margin-top: 20px;
+}
+
+.sub{
+  font-size: 20px;
+  margin-top: -55px;
 }
 
 .white{
@@ -19,6 +24,53 @@ body {
 
 .center{
   text-align: center;
+}
+
+.sun-container{
+  position: static;
+  display: block;
+}
+
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button:hover {
+  color: #3E3E3E;
+  background-color: white;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 500px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button.blue:hover {
+  color: white;
+  background-color: #4A90E2;
+}
+
+.button.blue {
+  color: #4A90E2;
+  border-color: #4A90E2;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 2px;
 }
 
 

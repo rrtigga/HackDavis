@@ -1,10 +1,10 @@
 .sun {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   width: 30vmin;
   height: 30vmin;
-  margin: -12.5vmin;
+  margin: -15vmin;
   animation: float 5s infinite;
 }
 .sun .orays {
