@@ -27,8 +27,9 @@ body {
 }
 
 .sun-container{
-  position: static;
   display: block;
+  position: relative;
+  margin-top: 300px;
 }
 
 
