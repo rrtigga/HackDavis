@@ -1,0 +1,39 @@
+#name {
+	color: #436FD0;
+	font-family: "PT Sans";
+	font-weight: 200;
+	font-size: 100px;
+	letter-spacing: 4px;
+}
+
+#sky {
+	background-color: #90f5f6;
+	height: 70%;
+	position:relative;
+}
+
+#sky span {
+	position: absolute;
+	bottom: -20px;
+	right: 10%;
+}
+
+#ground {
+	background-color:#45bd73;
+	position:relative;
+	height:30%;
+}
+
+.button {
+	height: 50px;
+	width: 200px;
+	background-color: #A7F06E;
+	text-align: center;
+	display: inline-block;
+	margin: 5px 10px 5px 5px;
+	position: relative;
+	float: right;
+	right: 14%;
+	top: 10px;
+	border-radius: 2px;
+}
