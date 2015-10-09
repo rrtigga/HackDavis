@@ -27,7 +27,7 @@
 }
 .sun .oface {
   position: absolute;
-  margin: -10%;
+  margin: -10%; 
   width: 120%;
   height: 120%;
   border-radius: 100%;
