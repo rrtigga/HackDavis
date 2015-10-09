@@ -13,4 +13,3 @@ function moveVehicle() {
 
 var animateObj = setInterval(moveVehicle, 25); //sets intervals
 
-

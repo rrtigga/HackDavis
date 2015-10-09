@@ -22,7 +22,7 @@ body {
 
 /* Background */
 #sky {
-	background-color: #90f5f6;
+	background-color: #A6F7F7;
 	height: 70%;
 	position:relative;
 }
@@ -67,6 +67,11 @@ body {
 	color: white;
 	transition: all .2s ease-in;
 }
+
+.button:hover::after {
+	transition: all .2s ease-out;
+}
+
 
 
 
