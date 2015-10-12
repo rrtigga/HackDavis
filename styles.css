@@ -3,15 +3,35 @@ body {
 }
 
 /* Text */
-#name {
-	font-weight: 200;
-	font-size: 100px;
-	letter-spacing: 4px;
-}
 
-#name, #register, #sponsor {
+#name, #register, #sponsor, #info {
 	color: #436FD0;
 	font-family: "PT Sans";
+}
+
+#name {
+/*	font-weight: 200;
+*/	font-size: 100px;
+	letter-spacing: 4px;
+	position: relative;
+	bottom: -30px;
+	right: 5px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#words {
+	width: 400px;
+	position: absolute;
+	right: 16%;
+	bottom: 0px;
+}
+
+#info {
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #register, #sponsor {
@@ -27,22 +47,34 @@ body {
 	position:relative;
 }
 
-#sky span {
-	position: absolute;
-	bottom: -20px;
-	right: 10%;
-}
-
-#sky img {
+#sky #bus {
 	position: absolute;
 	bottom: 0px;
 	left:-100px;
+}
+
+#sky #cloud1 {
+	position: absolute;
+	left: 40%;
+	top: 20%;
+}
+
+#sky #cloud2 {
+	position: absolute;
+	left: 20%;
+	top: 10%;
 }
 
 #ground {
 	background-color:#45bd73;
 	position:relative;
 	height:30%;
+}
+
+/* About */
+
+#about {
+	height: 600px;
 }
 
 /* Buttons */
