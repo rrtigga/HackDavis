@@ -4,7 +4,7 @@ body {
 
 /* Text */
 
-#name, #register, #sponsor, #info, #abouttext, #faqtext {
+#name, #register, #sponsor, #info, #abouttext, #faqtext, #aboutbody {
 	color: #436FD0;
 	font-family: "PT Sans";
 }
@@ -14,17 +14,19 @@ body {
 	font-family: "PT Sans";
 }
 
-.bar {
-	color: #45bd73;
-	font-family: "PT Sans";
-	font-size: 30px;
-}
-
 #abouttext, #faqtext {
 	width: 100px;
 	font-size: 30px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#aboutbody {
+	padding-top: 10%;
+	line-height: 150%;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
 }
 
 #name {
@@ -98,16 +100,14 @@ body {
 
 #faq {
 	height: 600px;
-	background-color: #A6F7F7
 }
 
 .bar {
 	height: 50px;
-	background-color: #45bd73;
-	position: relative;
-	top: 50px;
-	text-align: center;
-	position: relative;
+	background-color: #A7F06E;
+	font-family: "PT Sans";
+	font-size: 30px;
+	width: 50%;
 }
 
 #whiteblock {
