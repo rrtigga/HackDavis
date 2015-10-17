@@ -4,7 +4,7 @@ body {
 
 /* Text */
 
-#name, #register, #sponsor, #info, #abouttext, #faqtext, #aboutbody {
+#name, #register, #sponsor, #info, #abouttext, #faqtext, #aboutbody, #faq-question {
 	color: #436FD0;
 	font-family: "PT Sans";
 }
@@ -25,6 +25,14 @@ body {
 	padding-top: 5%;
 	line-height: 150%;
 	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+#faq-question {
+	padding-top: 20%;
+	line-height: 150%;
+	width: 75%;
 	margin: 0 auto;
 	font-size: 20px;
 }
@@ -120,6 +128,20 @@ body {
 	background-color: white;
 	height: 100px;
 	left: 50%;
+}
+
+.card {
+	width: 300px;
+	height: 400px;
+	border: 1px solid black;
+	left: 0px;
+	margin: 0 0 0 0;
+}
+
+.col {
+	width: 33%;
+	float: left;
+	height: 100%;
 }
 
 /* Nav */
