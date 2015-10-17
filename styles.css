@@ -22,11 +22,16 @@ body {
 }
 
 #aboutbody {
-	padding-top: 10%;
+	padding-top: 5%;
 	line-height: 150%;
 	width: 50%;
 	margin: 0 auto;
 	font-size: 20px;
+}
+
+#track {
+	display: inline-block;
+	padding-left: 3em;
 }
 
 #name {
