@@ -112,7 +112,7 @@ body {
 /* FAQ */
 
 #faq {
-	height: 600px;
+	height: 700px;
 }
 
 .faqContainer {
@@ -164,6 +164,11 @@ body {
 	width: 33%;
 	float: left;
 	height: 100%;
+}
+
+#footer {
+	height: 150px;
+	background-color: #45bd73;
 }
 
 /* Nav */
