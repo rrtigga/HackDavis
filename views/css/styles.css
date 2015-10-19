@@ -54,7 +54,6 @@ body {
 #name {
 	font-size: 100px;
 	letter-spacing: 4px;
-	position: relative;
 	bottom: -20px;
 	right: 5px;
 	font-weight: bold;
@@ -68,12 +67,17 @@ body {
 	width: 100%;
 }
 
+.center{
+	text-align: center;
+}
+
 #info {
 	font-size: 25px;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	width: 475px;
 	margin: 0 auto;
+	margin-bottom: 10px;
 	bottom: 10px;
 	padding-bottom: 10px;
 }
@@ -297,5 +301,53 @@ body {
 
 .button:hover::after {
 	transition: all .2s ease-out;
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+	#name{
+		font-size: 70px;
+	}
+
+	#info{
+		font-size: 17.5px;
+	}
+
+}
+
+@media only screen and (max-width : 480px) {
+	#name{
+		font-size: 50px;
+		margin-left: 45px;
+	}
+
+	#info{
+		font-size: 15px;
+		margin-left: 45px;
+	}
+
+}
+
+@media only screen and (max-width : 320px) {
+	#name{
+		font-size: 40px;
+		margin-left: 65px;
+
+	}
+
+	#info{
+		font-size: 12.5px;
+		margin-left: 65px;
+	}
+
 }
 

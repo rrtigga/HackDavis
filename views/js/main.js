@@ -1,6 +1,6 @@
 
 function moveVehicle() {
-	var vehicles = ["#bus", "#bike", "#cow"]
+	var vehicles = ["#bus", "#bike", "#cow"];
 	var num = 0;
 	var xpos = $(vehicles[num]).offset().left;
 	
